@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<meta charset="utf-8">
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no' >
+<head>
+	<title>test</title>
+	<style>
+	
+		html,body{overflow:hidden;background:pink;height:100%;}
+	   *{margin:0;padding:0;}
+	   p{line-height:40px;padding:20px 0;}
+	   #touchSlide{background:white;overflow: hidden;height:100%;}
+
+	   ul li{list-style:none;/*background:orange;height:100%;*/overflow:hidden;}
+	   .text-content{width:100%;overflow:hidden;height:100%;}
+	   .text-content ul{overflow:hidden;position:relative;left:0;top:0;transition:all .5s;-webkit-transition:all .5s;-ms-transition:all .5s;cursor:pointer; }
+	   img{height:80px;}
+	   .text-content li{box-sizing:border-box;display:none;width:100%;/*webkit-transform:translateY(0);*/height:100%;padding:0 1%;float:left;position:absolute;left:0;top:0;z-index:5;/*transform-origin:50% 100%;;*/transition:all .5s;-webkit-transition:all .5s;-ms-transition:all .5s;}
+	  .text-content .cu{z-index:6;display:block;}
+	  .text-content .active{z-index:7;display:block;}
+	  .swiper-contain{width:100%;height:100%;position:relative;left:0;top:0;transition:all .5s;-webkit-transition:all .5s;display: none;}
+	</style>
+	<script src='jquery.min.js'></script>
+</head>
+<body>
+	<div class='text-content' id='aaa'>
+	<div class='swiper-contain'>
+		<div class='swiper-slide'>
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+
+				<p>
+				   9999999999999999999搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   888888888888888搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   00000000000000搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   111111111111111111111搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   22222222222222222非京东方的搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+
+		</div>
+		</div>
+		<ul id='touchSlide' >
+			<li class='cu' style='background:orange'>
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   1搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   9999999999999999999搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   888888888888888搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   00000000000000搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   111111111111111111111搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+				<p>
+				   22222222222222222非京东方的搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%' />
+			</li>
+			<li class='aa' style='background:red'>
+				
+				<img src='aaa.jpg' width='100%' />
+				<img src='aaa.jpg' width='100%'  />
+			</li>
+			<li style='background:#00ff00'>
+				<p>
+				   3搭建都是和11111我放到奇偶发单金佛等我卖豆腐脑对方搭建
+				</p>
+			</li>
+			<li style='background:blue'>
+				<p>
+				   4搭建都是和我放到奇偶发单金佛等我卖豆腐脑对方搭建都是和
+				</p>
+				<img src='aaa.jpg' width='100%'  />
+			</li>
+		</ul>
+	</div>
+	<div style='position:fixed;top:0;left:0;width:100px;min-height:50px;background:red;z-index:999;' class='aaa'></div>
+	<div style='position:fixed;top:0;left:110px;width:100px;min-height:50px;background:orange;z-index:999;' class='bbb'></div>
+	<script>	
+		//alert($('.swiper-slide')[0])
+		//$('.bbb').click(function(){$('.aaa').html('')})
+	</script>
+	<script>
+		var touchSlide = function(a){
+			a = a || {};
+			var b = {
+				slideCell: a.slideCell || "#touchSlide",
+				mainCell: a.mainCell || "",
+				effect: a.effect || "left",
+				moveDiss : a.movediss, //|| $(window).height(),//要移动的距离
+				loop : true,
+				moveAuto : a.moveAuto || false
+			}
+			var slideCell = $(b.slideCell),
+			mainCell = $(b.mainCell),
+			effect = b.effect,
+			len = mainCell.length,
+			isLeft = effect ==='left' ? (wd = $(window).width(),true) : (wd = $(window).height(),false),
+			//wd = isLeft ==='left' ? $(window).width() : $(window).height(),
+			diss = 0,//点击鼠标和弹起鼠标之间的距离
+			moveDiss = b.moveDiss ? b.moveDiss : wd,//要移动的距离
+			/*moveAuto = b.moveAuto,
+			moveCache = moveAuto ? 0 : 100,
+			moveMin = wd - moveDiss,
+			moveMax = isLeft ? (size=len * wd,slideCell.width(size),mainCell.width(wd),size - moveDiss) : 
+							   (moveAuto ? $(mainCell).height() - moveDiss : (size=len * wd,slideCell.height(size),mainCell.height(wd),size - moveDiss)), 
+			
+			scale = 0.5,//放大*/
+			index = cu = 0,
+			startPos = 0,
+			endPos = 0,
+			pos = parseInt(slideCell.css(effect)),
+			isMove = 'ontouchstart' in window,
+			start = isMove ? 'touchstart' : 'mousedown',
+			move = isMove ? 'touchmove' : 'mousemove',
+			end = isMove ? 'touchend' : 'mouseup';
+			//alert(moveMax)
+			
+			var eventStart = function(e){
+				target = isMove ? e.targetTouches[0] : e;
+				startPos = isLeft ? target.pageX : target.pageY;
+				slideCell[0].addEventListener(move, eventMove, !1);	 
+				slideCell[0].addEventListener(end, eventEnd, !1);
+			}
+			
+			var eventMove = function(e){
+				e.preventDefault();
+				
+				//if(mainCell.is(':animated')){return false;}
+				//$('.aaa').html($('.aaa').html() + mainCell.is(':animated') + '<br />')
+				target = isMove ? e.targetTouches[0] : e;
+				endPos = isLeft ? target.pageX : target.pageY;   
+				diss = startPos - endPos;
+				if(b.loop){
+					index = cu + 1 >= len ? 0 : cu + 1
+					mainCell.removeClass('active')
+					
+					if(diss>0){
+						mainCell.eq(index).addClass('active')
+						mainCell.eq(index).css({
+							'webkit-transition' : 'none',
+							'webkit-transform':'translateY(' + (wd - diss) + 'px)'
+						})
+						
+					}else{
+						index = cu - 1 > 0 ? cu-1 : len - 1
+						mainCell.eq(index).addClass('active')
+						mainCell.eq(index).css({
+							'webkit-transition' : 'none',
+							'webkit-transform':'translateY(' + (-wd - diss) + 'px)'
+						})
+					}
+					
+				}else{
+					slideCell.css(effect,pos - diss + 'px');
+				}
+			}
+				
+			var eventEnd = function(e){		
+				e.preventDefault();
+				try{$('.aaa').html($('.aaa').html() + t + '<br />')}catch(e){}
+				if(!diss){return false;}
+				if(diss > 0){
+					
+					mainCell.eq(index).css({
+							'webkit-transition' : 'all .5s',
+							'webkit-transform':'translateY(0)'
+						})
+						t = setTimeout(function(){
+							mainCell.eq(cu).removeClass('cu');
+							mainCell.eq(index).removeClass('active').addClass('cu')
+							cu = ++cu >= len ? 0 : cu;
+						},5000)	
+				}
+				else{
+					mainCell.eq(index).css({
+							'webkit-transition' : 'all .5s',
+							'webkit-transform':'translateY(0)'
+						})
+						setTimeout(function(){
+							mainCell.eq(cu).removeClass('cu');
+							mainCell.eq(index).removeClass('active').addClass('cu')
+							cu = --cu > 0 ? cu : len - 1;
+							//alert(cu)
+						},5000)
+				}
+				/*moveDiss = moveAuto ?　diss : moveDiss;
+					if(diss > 0){
+						slide(moveDiss,moveMax);
+					}
+					else{
+						slide(moveDiss > 0 ? -moveDiss : moveDiss,moveMin);
+					}
+					diss = 0;*/
+				slideCell[0].removeEventListener(move, eventMove, !1);	 
+				slideCell[0].removeEventListener(end, eventEnd, !1);
+			}
+			slideCell[0].addEventListener(start, eventStart, !1);
+			var slide = function(moveDiss,moveRnage){
+				
+				if(Math.abs(diss) > moveCache && -diss/Math.abs(diss)*(pos - moveDiss) <= moveRnage){
+					if(!moveAuto){
+						slideCell.css(effect,(pos - moveDiss) + 'px');
+						mainCell.eq(cu).css('transform' , 'scale(1)');
+						//cu = diss > 0 ? ++cu : --cu;
+						//alert(cu)
+					}
+					pos = pos - moveDiss;		
+				}else{
+					pos = moveAuto ? -moveRnage : pos;
+					slideCell.css(effect , pos + 'px')
+				}
+			}
+		}
+	</script>
+	
+	<script>
+
+		touchSlide({
+			slideCell : '#touchSlide',
+			mainCell : '#touchSlide li',
+			effect : 'top',
+			//moveAuto : true
+		})
+		/*touchSlide({
+			slideCell : '.swiper-contain',
+			mainCell : '.swiper-slide',
+			effect : 'top',
+			moveAuto : true
+		})*/
+	</script>
+</body>
+
+</html>
